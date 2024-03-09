@@ -1,0 +1,76 @@
+/* variables */
+:root{
+    --text-color: #707070;
+    --btn-color: #3C82F4;
+    --gradient-color: linear-gradient(90deg, #FE6783 1.9%, #FFBF84 97.1%);
+    --main-color:#fff;
+    --gren: #0FC65C;
+    --bg-color:#000000;
+    --fonts:Poppins;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global changes */
+a {
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* container */
+.container{
+    max-width: 1640px;
+    width: 100%;
+    margin: auto;
+    background: var(--bg-color);
+}
+
+/* header */
+header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 46px 140px;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav{
+    display: flex;
+}
+
+header ul a{
+    color: var(--text-color);
+    margin-right: 1.25rem;
+    font-family:var(--fonts) ,serif;
+    font-size: 1.25rem;
+    line-height: 30px;
+    font-weight: 500;
+}   
+
+header .btns a{
+    font-family:var(--fonts) ,serif;
+    font-size: 1.25rem;
+    line-height: 30px;
+    font-weight: 500;
+    border: none;
+    color: var(--text-color);
+    margin-right: 1.5rem;
+
+}
+
+.blue_btn{
+    padding: 0.75rem 1.37rem;
+    background: var(--btn-color);
+    color: var(--main-color);
+    border-radius: 0.7rem;
+}
