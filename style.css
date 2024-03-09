@@ -9,6 +9,17 @@
     --fonts:Poppins;
 }
 
+/* scrool bar */
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: var(--bg-color);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--btn-color);
+  }
+
 *{
     margin: 0;
     padding: 0;
