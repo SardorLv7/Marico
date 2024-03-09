@@ -4,7 +4,7 @@
     --btn-color: #3C82F4;
     --gradient-color: linear-gradient(90deg, #FE6783 1.9%, #FFBF84 97.1%);
     --main-color:#fff;
-    --gren: #0FC65C;
+    --green: #0FC65C;
     --bg-color:#000000;
     --fonts:Poppins;
 }
@@ -74,6 +74,7 @@ header .btns a{
     background: var(--btn-color);
     color: var(--main-color);
     border-radius: 0.7rem;
+    border: none;
 }
 
 main{
@@ -261,4 +262,74 @@ section .party p{
 .page_right img{
     width: 820px;
     height: 715px;
+}
+
+/* collects */
+.collects{
+    max-width: 1420px;
+    margin: 95px;
+    display: flex;
+    color: var(--main-color);
+    margin-top: 176px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.collects div{
+    background: #0D0D0D;
+    max-width: 854px;
+    padding: 33px 44px;
+}
+
+.collects_left{
+    min-width: 700px;
+}
+.one_link{
+    color: var(--green);
+    margin-bottom: 24px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.collects h2{
+    font-family: var(--fonts)c;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 120px;
+}
+
+.collects h2 span{
+    color:  #919191;
+}
+
+.collects_right{
+    min-width: 700px;
+    margin-left: 23px;
+}
+
+.base{
+    display: block;
+    padding: 22px 82px;
+    margin: auto;
+}
+
+.experts{
+    margin-top: 99px;
+    text-align: center;
+    color: var(--main-color);
+    padding: 47px;
+}
+
+.experts h2{
+    font-family: var(--fonts), serif;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 112px;
+    margin-bottom: 52px;
+}
+
+.experts img{
+    width: 100%;
 }
