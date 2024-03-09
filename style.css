@@ -30,6 +30,7 @@ li{
     width: 100%;
     margin: auto;
     background: var(--bg-color);
+   
 }
 
 /* header */
@@ -114,12 +115,9 @@ main .main_text{
 .main__btn_2{
     background: none;
     color: var(--main-color);
-    border: 1px solid #707070
+    border: 1px solid #707070;
+    margin-left: 16px;
     
-}
-
-.counter{
-
 }
 
 .counter .circle{
@@ -174,6 +172,93 @@ section .party p{
 /* connect */
 
 .connect{
+    margin: auto;
+    max-width: 886px;
+    margin-top: 162px;
     text-align: center;
     color: var(--main-color);
+}
+
+.connect .step{
+    font-family:var(--fonts), serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 38px;
+    color: var(--btn-color);
+}
+
+.connect h2{
+    font-family: var(--fonts),serif;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 112px;
+}
+
+.connect .connect_text{
+    font-family: var(--fonts),serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    color: var(--text-color);    
+}
+
+.connect button{
+    margin-top: 58px;
+    border: 1px solid #707070;
+    background: none;
+    padding: 24px 38px;
+    color: var(--text-color);
+}
+
+.home_page{
+    display: flex;
+    color: var(--main-color);
+    margin-top: 190px;
+    justify-content: flex-end;
+    font-family: var(--fonts), serif;
+}
+
+.home_page .page_left{
+    margin-right: 50px;
+}
+
+.home_page h2{
+    margin-top: 80px;
+    font-family: Poppins;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 112px;
+    letter-spacing: 0px;
+    
+}
+
+.home_page .spot{
+    color: var(--btn-color);
+}
+
+.options{
+    font-family: var(--fonts);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.options_circle{
+    background: #2D2D2D;
+    padding: 5px 14px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.options_2{
+    margin-top: 13px;
+}
+
+.home_page .btns .page_btn{
+    padding: 18px 22px;
+    outline: none;
+}
+
+.page_right img{
+    width: 820px;
+    height: 715px;
 }
